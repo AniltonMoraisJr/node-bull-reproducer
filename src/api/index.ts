@@ -6,7 +6,6 @@ const getPing = async (_req, res) => {
   return res.send(body).status(200);
 };
 
- 
 router.get('/', getPing);
 
 export default router;
