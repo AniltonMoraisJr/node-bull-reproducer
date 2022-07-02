@@ -1,4 +1,4 @@
-import { Queues } from 'src/enums';
+import { Queues } from '../enums';
 import BaseQueue from './base.queue';
 
 export default class LogQueue extends BaseQueue {
